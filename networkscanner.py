@@ -11,7 +11,7 @@ port = int(input("enter your port:"))
 #for define the exception
 def PortScanner(port):
     if sock.connect_ex((ipaddress,port)):
-        print(f"PORT {port} is closed :)")
+        print(f"PORT {port} is closed ( :")
     else:
-        print(f"PORT {port} is open (:")
+        print(f"PORT {port} is open :)")
 PortScanner(port)
